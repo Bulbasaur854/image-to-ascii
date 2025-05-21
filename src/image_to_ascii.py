@@ -1,2 +1,4 @@
-def image_to_ascii(image):
-    pass
+from PIL import Image
+
+def load_image(filepath):
+    return Image.open(filepath)
