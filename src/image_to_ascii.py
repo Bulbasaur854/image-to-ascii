@@ -24,12 +24,9 @@ def map_pixels_to_ascii(image):
     pixels = image.getdata()    
     return "".join([ASCII_RAMP[pixel * (len(ASCII_RAMP) - 1) // 255] for pixel in pixels])
 
-def format_ascii_output(ascii_chars, width=100):
+def format_ascii_output(ascii_chars, width):
     return list("".join(ascii_chars[i:i+width]) for i in range(0, len(ascii_chars), width))
 
-def save_or_display_ascii(ascii_lines, output_path=None):
-    if output_path:
-        print(f"Saving to file, output located at: {output_path}")
-    else:
-        for line in ascii_lines:
-            print(line)
+def display_ascii(ascii_lines):
+    for line in ascii_lines:
+        print(line)

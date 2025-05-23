@@ -10,7 +10,7 @@ def main():
         img_gray = convert_to_grayscale(img_resized)
         img_ascii = map_pixels_to_ascii(img_gray)
         lines = format_ascii_output(img_ascii, image_width)
-        save_or_display_ascii(lines)
+        display_ascii(lines)
     else:        
         print(
             "Not enough arguments were passed!\n"
