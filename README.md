@@ -19,5 +19,5 @@ A simple Python tool that converts images (PNG, JPEG, etc.) into ASCII art using
 5.  Run the program along with path to image and desired width:
 
     ```bash
-    python <path/to/image> <width>
+    python3 src/main.py <path/to/image> <width>
     ```
