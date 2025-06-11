@@ -1,12 +1,12 @@
-# Image to Ascii
+# 🖼️ Image to Ascii
 
 A simple Python tool that converts images (PNG, JPEG, etc.) into ASCII art using grayscale pixel mapping. Great for terminal fun, text-based art, or creative scripting.
 
-## Prerequisites
+## 🛍️ Prerequisites
 
 -  Python
 
-## How-To
+## 📘 How-To
 
 1.  Download repository files as zip and extract anywhere on your PC
 2.  Open terminal session inside the `image-to-ascii` folder
