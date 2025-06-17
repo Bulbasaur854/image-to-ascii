@@ -4,7 +4,7 @@ A simple Python tool that converts images (PNG, JPEG, etc.) into ASCII art using
 
 ## 🛍️ Prerequisites
 
--  Python
+-  Python 3.10+ installed
 
 ## 📘 How-To
 
